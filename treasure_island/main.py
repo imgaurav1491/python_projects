@@ -40,6 +40,8 @@ if direction == "left":
             print("You choose a door that doesn't exist. GAME OVER.")
     else:
         print("You got attacked by a crocodile, GAME OVER")
+elif direction == "right":
+    print("You fell into a hole. GAME OVER.")
 else:
-    print("GAME OVER, YOU LOSE.")
+    print("You typed wrong input. GAME OVER.")
 
