@@ -31,7 +31,7 @@ if direction == "left":
         door = input("You have got to the island. There are three doors here: 'RED', 'YELLOW' and 'BLUE'.\n"
                      "Choose one and type the color of the door: ").lower()
         if door == "yellow":
-            print("Hurray!!, YOU WIN.")
+            print("Hurray!!, You found the treasure......YOU WIN."
         else:
             print("GAME OVER, YOU LOSE.")
     else:
